@@ -1,0 +1,15 @@
+{
+  "name": "ritmo-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Demonstração do Ritmo com ficha e registros fictícios, somente consulta.",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

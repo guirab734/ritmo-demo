@@ -1,0 +1,24 @@
+.demo-notice { padding: 12px max(20px, calc((100% - 1440px) / 2)); border-bottom: 1px solid #c6ae7b44; background: #25271f; display: flex; align-items: center; justify-content: space-between; gap: 16px; font: 12px Manrope, sans-serif; color: #e3e5dd; }
+.demo-notice > div { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; }
+.demo-notice strong { text-transform: uppercase; color: #e4ca95; letter-spacing: .1em; font-size: 10px; }
+.demo-notice a { color: #e4ca95; text-underline-offset: 4px; flex-shrink: 0; }
+.demo-readonly { color: var(--muted, #a6afa8); font-size: 11px; }
+.demo-loading { padding: 48px 24px; }
+.demo-scenarios { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; padding: 16px; border: 1px solid #c6ae7b44; }
+.demo-scenarios > span { margin-right: 8px; font-size: 12px; }
+.demo-scenarios button { border: 1px solid #c6ae7b66; padding: 8px 12px; background: transparent; color: #e3e5dd; font: inherit; cursor: pointer; }
+.demo-scenarios button[aria-pressed="true"] { background: #c6ae7b; color: #141616; }
+.demo-scenarios p { width: 100%; color: #a6afa8; font-size: 12px; margin: 4px 0 0; }
+.demo-example { font-size: 13px; line-height: 1.7; padding: 16px 0; color: #c6ae7b; }
+.demo-history { display: grid; gap: 14px; margin-top: 36px; }
+.demo-record { border-top: 1px solid #4a514d; }
+.demo-record summary { display: flex; align-items: center; gap: 24px; padding: 24px 0; cursor: pointer; }
+.demo-record summary > span:nth-child(2) { flex: 1; }
+.demo-record strong, .demo-record small { display: block; }
+.demo-record small { color: #a6afa8; margin-top: 6px; font-size: 12px; }
+.demo-date { color: #a6afa8; font-size: 11px; min-width: 48px; }
+.demo-date b { display: block; font-size: 32px; font-weight: 400; color: #c6ae7b; }
+.demo-record-body { padding: 0 0 24px 72px; font-size: 13px; }
+.demo-record-body > div { margin-top: 20px; display: grid; gap: 8px; }
+.demo-record-body span, .demo-record-body > p { color: #a6afa8; }
+@media (max-width: 649px) { .demo-notice { align-items: flex-start; padding: 12px 18px; font-size: 10px; } .demo-notice > div { gap: 4px; } .demo-notice span { width: 100%; } .demo-readonly { font-size: 10px; } .demo-record summary { gap: 12px; } .demo-record-body { padding-left: 0; } }
